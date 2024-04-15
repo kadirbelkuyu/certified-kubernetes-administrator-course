@@ -1,0 +1,44 @@
+repo_name: kadirbelkuyu/certified-kubernetes-administrator-course
+report_id: e87b4dd5bdd32ac99f5efabaebcf26de
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-15T07:22:35+00:00'
+requested_by: fireflycons
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kadirbelkuyu/certified-kubernetes-administrator-course
+  detection_source: Repo Metadata
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/kadirbelkuyu/certified-kubernetes-administrator-course/blob/master/Vagrantfile
+  detection_source: Vagrantfile
+  last_updated_by: fireflycons
+  last_updated_on: 2023-06-28 18:55:53.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/kadirbelkuyu/certified-kubernetes-administrator-course
+  detection_source: Repo Metadata
